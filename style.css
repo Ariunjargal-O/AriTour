@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100;300;400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: #d8e4e9;
+}
+.mainpage {
+  background-image: url(assents/main.png);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.main-logo {
+  width: 101px;
+  height: 35px;
+}
+.main-pro {
+  width: 11.67px;
+  height: 15px;
+}
+
+.language {
+  background-color: #ffffff;
+  width: 40px;
+  height: 40px;
+  color: black;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16.94px;
+  text-align: center;
+  padding: 13px;
+  border-radius: 24px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+.main-page-header {
+  display: flex;
+  justify-content: space-between;
+  width: 1204px;
+  padding-top: 30px;
+  position: fixed;
+  /* /* height: 43px; */
+  backdrop-filter: blur(10px);
+}
+
+ul {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+li {
+  width: 100px;
+  list-style: none;
+}
+.head-list {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21.78px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.puremagic {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+  color: #e8edf2b8;
+  padding-top: 95.5px;
+}
+.awaits {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-size: 250px;
+  line-height: 250px;
+  color: #fdfdfefa;
+  text-align: center;
+}
+.main-year {
+  font-family: "Hanuman", serif;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 64px;
+  color: #ffffffcc;
+  text-align: center;
+}
+
+.card-page {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.map-page {
+  background-image: url(assents/Roadmap\ image.png);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.price-page {
+  background-image: url(assents/Price&Footer\ image.png);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.card-page-main {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+
+.card {
+  width: 275px;
+  height: 370px;
+  border-radius: 40px;
+  position: relative;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-text {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 44.4px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  width: 232px;
+}
+
+.card-container:nth-child(1) .card {
+  background-image: url(assents/hover-terkhiintsagaan.png);
+}
+.card-container:nth-child(2) .card {
+  background-image: url(assents/Hover-amarbayasgalan.png);
+}
+.card-container:nth-child(3) .card {
+  background-image: url(assents/Hover-khuvsgul.png);
+}
+.card-container:nth-child(4) .card {
+  background-image: url(assents/Hover-khorgo.png);
+}
+.card-left {
+  width: 275px;
+  height: 370px;
+  border-radius: 40px;
+  position: absolute;
+  background-color: #83afcb;
+}
+.card-right {
+  width: 275px;
+  height: 370px;
+  border-radius: 40px;
+  position: absolute;
+  background-color: #adc8d1;
+}
+
+.ouragency {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 50.83px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: black;
+  padding-top: 120px;
+}
+
+.pack-bag {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24.2px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #18181bb2;
+  padding-top: 10px;
+  padding-bottom: 59px;
+}
+
+.map-box-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.map-box {
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.map-box:nth-child(1) {
+  background-color: #eee9d9;
+}
+.map-box:nth-child(2) {
+  background-color: #8BB8C1CC;
+}
+.map-box:nth-child(3) {
+  background-color: #AAD8D7CC;
+}
+.map-box:nth-child(4) {
+  background-color: #8BC0BDCC;
+}
+.map-box:nth-child(5) {
+  background-color:#97CCE0CC;
+}
